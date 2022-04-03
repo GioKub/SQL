@@ -1,0 +1,19 @@
+1. Simple filtering on numbers
+
+SELECT good FROM Payments WHERE unit_price > 2000
+
+2. Simple filtering on strings
+
+SELECT member_name FROM FamilyMembers WHERE STATUS="father"
+
+4. Logical AND
+
+SELECT * FROM Rooms WHERE has_kitchen=1 AND has_internet=1
+
+5. WHERE BETWEEN
+
+SELECT room_id, start_date, end_date FROM Reservations WHERE total BETWEEN 500 AND 1200
+
+6. Filtering by string pattern
+
+SELECT member_name FROM FamilyMembers WHERE member_name LIKE '% Quincey';
