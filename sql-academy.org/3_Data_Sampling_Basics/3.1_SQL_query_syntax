@@ -1,0 +1,15 @@
+1. SELECTing by single column
+
+SELECT name FROM Passenger
+
+2. SELECTing by multiple columns
+
+SELECT member_id, member_name, STATUS FROM FamilyMembers
+
+3. SELECTing all columns
+
+SELECT * FROM Payments
+
+4. SELECTing unique rows
+
+SELECT DISTINCT name FROM Passenger
