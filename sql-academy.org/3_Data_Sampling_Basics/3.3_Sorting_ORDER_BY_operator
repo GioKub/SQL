@@ -1,0 +1,2 @@
+2. Multi column sort
+SELECT * FROM FamilyMembers where member_name LIKE '% Quincey' ORDER BY status , member_name
