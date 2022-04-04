@@ -1,0 +1,13 @@
+1. INNER JOIN
+
+SELECT name, student FROM Class INNER JOIN Student_in_class ON Class.id = Student_in_class.class
+
+2. Multi table INNER JOIN
+
+SELECT name, first_name FROM Class INNER JOIN Student_in_class ON Class.id = Student_in_class.class INNER JOIN Student ON Student_in_class.student = Student.id 
+
+3. Multi table INNER JOIN with filtration
+
+SELECT good_name FROM FamilyMembers INNER JOIN Payments ON Payments.family_member = FamilyMembers.member_id INNER JOIN Goods ON Goods.good_id = Payments.good WHERE  status = 'son'
+
+4. INNER JOIN with grouping (EMPTY!)
