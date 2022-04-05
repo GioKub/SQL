@@ -1,0 +1,7 @@
+1. Restricting entries from the beginning of the table
+
+SELECT * FROM Company ORDER BY name ASC LIMIT 2
+
+2. Limit the number of offset entries
+
+SELECT start_pair, end_pair FROM Timepair LIMIT 1, 2
