@@ -1,0 +1,9 @@
+1. Deleting all records
+
+DELETE FROM Payments
+
+2. Deletion with condition
+
+DELETE FROM Goods where good_name = "milk"
+
+3. Deletion with JOIN (EMPTY!)
